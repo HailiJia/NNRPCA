@@ -1,7 +1,7 @@
 import numpy as np
 from scipy.linalg import svd
 
-def nonneg_rpca(Y, lambda_val=1.0, mu=1.0, max_iter=100, rho=1.6):
+def NNRPCA_2d(Y, lambda_val=1.0, mu=1.0, max_iter=100, rho=1.6):
     
     m, n = Y.shape
 
